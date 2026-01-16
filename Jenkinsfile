@@ -1,11 +1,11 @@
 pipeline {
     agent any
 
-    tools {
-       // Install the Maven and NodeJS versions configured in Jenkins global tools
-        maven 'Maven3'
-        nodejs 'Node18'
-    }
+    // tools {
+    //    java 'Java21'
+    //     maven 'Maven3'
+    //     nodejs 'Node18'
+    // }
 
     stages {
 
