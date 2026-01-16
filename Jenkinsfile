@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        jdk 'JDK17'
+       // Install the Maven and NodeJS versions configured in Jenkins global tools
         maven 'Maven3'
         nodejs 'Node18'
     }
